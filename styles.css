@@ -76,3 +76,27 @@
 #message{
     margin-top: 10px;
 }
+
+/* 
+Responsiveness
+*/
+
+@media (max-width: 1048px) {
+    #container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #main-container{
+        margin: 0;
+        border-radius: 0;
+        width: 800px;
+    }
+    #game-rules{
+        margin: 0;
+        width: 800px;
+        border-radius: 0;
+        margin-top: 40px;
+    }
+}
