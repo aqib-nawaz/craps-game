@@ -1,0 +1,78 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: lower-alpha;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.17s ease;
+    
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main-container{
+    width: 650px;
+    background-color: #a7f7ff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 19px #0000094f;
+    border-radius: 6px 0px 0px 6px;
+    margin-right: 0;
+}
+#game-rules{
+    width: 400px;
+    background-color: #fffbc3;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 19px #0000094f;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: 0px;
+}
+
+#game-rules ul li {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#about, #dice-img-container, #result, #play-btn{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#dice-img-container img{
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+}
+#play-btn{
+    width: 110px;
+    font-size: 20px;
+    padding: 8px;
+    box-shadow: 1px 1px 10px 3px #68686869;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#play-btn:hover{
+    box-shadow: 0px 0px 6px 0px #68686869;
+}
+#message,#points{
+    font-size: 18px;
+    font-weight: bold;
+}
+#message{
+    margin-top: 10px;
+}
